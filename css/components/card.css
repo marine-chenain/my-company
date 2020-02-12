@@ -1,0 +1,69 @@
+.cards {
+    display: flex;
+    flex-flow: wrap;
+  }
+
+.card {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    margin: 10px;
+    flex-basis: 250px;
+    flex-grow: 1;
+  }
+
+  .card img {
+  	width: 150px;
+    border-radius: 6px;
+  }
+
+  .card h3 {
+    flex-grow: 1;
+    padding-left: 20px;
+    font-size: 24px;
+  }
+
+.cards-moniors {
+  background-color: #4172A5;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  border-radius: 6px;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  flex-flow: wrap;
+}
+
+  .card-monitors-text {
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 250px;
+  flex-grow: 1;
+  background-color: #4172A5;
+  border-radius: 6px;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  }
+
+  #card-monitors-img {
+    padding: 0px;
+    display: block;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    margin: 10px;
+    flex-basis: 200px;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #card-monitors-img img {
+  padding: 10px;
+  }
